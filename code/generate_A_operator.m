@@ -27,6 +27,9 @@ function [A] = generate_A_operator(alpha_map,Ne)
 %
 %=========================================================================
 
+%% exception handling
+if isempty(alpha_map); A = 1; return; end
+
 %% dimensions
 Nv = prod(size(alpha_map,[1:3]));
 Nm = size(alpha_map,7);

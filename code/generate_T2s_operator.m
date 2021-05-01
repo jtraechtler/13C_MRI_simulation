@@ -28,6 +28,9 @@ function [T2s] = generate_T2s_operator(T2s_map,t)
 %
 %=========================================================================
 
+%% exception handling
+if isempty(T2s_map); T2s = 1; return; end
+
 %% dimensions
 Nv = prod(size(T2s_map,[1:3]));
 Nm = size(T2s_map,7);
