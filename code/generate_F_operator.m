@@ -32,7 +32,7 @@ Ns = length(k);
 Nv = length(r);
 
 %% build F operator
-F = single(1/Nv.*exp(-1i*k*r.'));
+F = single(1/sqrt(Ns).*exp(-1i*k*r.'));
 
 %% reshape F: [Ns,1,1,Nv,1]
 F = reshape(F,[Ns,1,1,Nv,1]);
