@@ -2,7 +2,7 @@
 
 ## UPDATE
 
-The repository was moved to https://gitlab.ethz.ch/ibt-cmr-public/13c_mri_simulation.
+The repository was moved to https://gitlab.ethz.ch/ibt-cmr-public/13c_mri_simulation.git.
 
 ## Description
 
@@ -14,8 +14,8 @@ MATLAB
 
 ## Usage
 
-1. Run ```run_simulation(id,eta)``` to generate synthetic 13C data based on raw data stored in *'data/[id].mat'* and noise level *eta*. The simulated data are stored in *'results/[id].mat'*.
-2. Process and reconstruct data using multi-echo reconstruction: https://gitlab.ethz.ch/ibt-cmr-public/multiecho_b0_recon
+1. Run ```run_simulation(id,eta)``` to generate synthetic 13C data based on raw data stored in *'data/[id].mat'* and noise level *eta*. The simulated data is stored in *'results/[id].mat'*.
+2. Process and reconstruct data using multi-echo reconstruction: https://gitlab.ethz.ch/ibt-cmr-public/multiecho_b0_recon.git
 
 Example: 
 ```
