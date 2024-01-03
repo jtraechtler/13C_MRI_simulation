@@ -6,7 +6,8 @@ The repository was moved to https://gitlab.ethz.ch/ibt-cmr-public/13c_mri_simula
 
 ## Description
 
-MATLAB code to generate synthetic k-space data simulating multi-echo acquisition using hyperpolarized 13C metabolic MRI.
+MATLAB code to generate synthetic k-space data simulating multi-echo acquisition using hyperpolarized 13C metabolic MRI.\
+Reference: https://doi.org/10.1002/mrm.28710
 
 ## Requirements
 
